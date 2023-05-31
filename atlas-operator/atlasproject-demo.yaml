@@ -1,0 +1,9 @@
+﻿apiVersion: atlas.mongodb.com/v1
+kind: AtlasProject
+metadata:
+  name: demo
+spec:
+  name: Test Atlas Operator Project
+  projectIpAccessList:
+    - ipAddress: "18.189.19.104"
+      comment: "Host Pod IP Address"

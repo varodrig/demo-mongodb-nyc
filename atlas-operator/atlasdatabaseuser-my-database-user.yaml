@@ -1,0 +1,14 @@
+﻿kind: AtlasDatabaseUser
+apiVersion: atlas.mongodb.com/v1
+metadata:
+  name: my-database-user
+spec:
+  databaseName: admin
+  passwordSecretRef:
+    name: app-pass
+  projectRef:
+    name: demo
+  roles:
+    - databaseName: admin
+      roleName: atlasAdmin
+  username: user-app

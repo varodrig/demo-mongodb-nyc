@@ -12,5 +12,7 @@
 4. Access the frontend application: UI Super Heroes.
 	$ oc get routes -n demo 
 * Test the UI Super Heroes to ensure it is working as expected.
+* 
+* oc apply -f oc apply -f app-deploy/rest-fights-new.yml
 
 

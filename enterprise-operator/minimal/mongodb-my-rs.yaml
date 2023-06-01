@@ -1,0 +1,14 @@
+﻿kind: MongoDB
+apiVersion: mongodb.com/v1
+metadata:
+  name: my-rs
+  namespace: openshift-operators
+spec:
+  credentials: organization-secret
+  members: 3
+  opsManager:
+    configMapRef:
+      name: my-project
+  persistent: true
+  type: ReplicaSet
+  version: 4.4.0-ent

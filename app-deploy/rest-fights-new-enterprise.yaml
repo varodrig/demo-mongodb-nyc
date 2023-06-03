@@ -74,8 +74,8 @@ spec:
             - name: QUARKUS_MONGODB_CONNECTION_STRING
               valueFrom:
                 secretKeyRef:
-                  name: test-demo-today-serverlessinstance0-david
-                  key: connectionStringStandardSrv
+                  name: my-rs-app-user-admin
+                  key: connectionString.standardSrv
           envFrom:
             - configMapRef:
                 name: rest-fights-config-new

@@ -5,5 +5,5 @@ metadata:
 spec:
   name: Test Atlas Operator Project
   projectIpAccessList:
-    - ipAddress: "18.189.19.104"
+    - ipAddress: "3.137.125.147"
       comment: "Host Pod IP Address"

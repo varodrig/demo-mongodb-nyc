@@ -4,7 +4,7 @@ metadata:
   name: atlas-deployment-serverless
 spec:
   projectRef:
-    name: test
+    name: demo-serverless
   serverlessSpec:
     name: ServerlessInstance0
     providerSettings:

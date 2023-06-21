@@ -1,0 +1,14 @@
+kind: AtlasDeployment
+apiVersion: atlas.mongodb.com/v1
+metadata:
+  name: my-atlas-deployment
+  namespace: demo
+spec:
+  deploymentSpec:
+    name: test-deployment
+    providerSettings:
+      instanceSizeName: M0
+      providerName: AWS
+      regionName: US_EAST_1
+  projectRef:
+    name: demo

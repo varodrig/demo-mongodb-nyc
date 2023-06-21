@@ -1,0 +1,9 @@
+﻿kind: AtlasProject
+apiVersion: atlas.mongodb.com/v1
+metadata:
+  name: demo-serverless
+spec:
+  name: Demo Serverless Project
+  projectIpAccessList:
+    - comment: IP address for cluster
+      ipAddress: 3.12.221.205

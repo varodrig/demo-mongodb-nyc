@@ -3,7 +3,7 @@ kind: AtlasProject
 metadata:
   name: demo
 spec:
-  name: Test Atlas Operator Project
+  name: Demo Project
   projectIpAccessList:
-    - ipAddress: "3.137.125.147"
+    - ipAddress: "3.12.221.205"
       comment: "Host Pod IP Address"
